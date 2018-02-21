@@ -10,8 +10,8 @@ int main() {
 		scanf("%s", str);
 		int len = strlen(str);
 
-		int la = 0, ma = 0, ra = 0;
-		int fla = 0, fra = 0, flag = 0, pcount = 0, tcount = 0;
+                int la = 0, ma = 0, ra = 0, pcount = 0, tcount = 0;;
+                int fla = 0, fra = 0, flag = 0;
 		for (int j = 0;j != len;++j) {
 			if (str[j] != 'P'&&str[j] != 'A'&&str[j] != 'T') {
 				flag = 1;
