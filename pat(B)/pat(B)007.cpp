@@ -1,6 +1,6 @@
 #include<cstdio>
 
-int n, count = 0;;
+int n, count = 0;
 bool vis[100010] = { 0 };
 int prime[100010] = { 0 };
 
